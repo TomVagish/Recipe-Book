@@ -1,0 +1,49 @@
+body{
+    direction: rtl;
+ 
+
+}
+
+
+.navbar-brand {
+   
+    text-align: right;
+    font-size: 30px;
+    font-family: tahoma;
+    color:whitesmoke;
+    transition: 0.5s all;
+}
+
+.navbar-brand:hover{
+    color: lightskyblue;
+    transform: scale(1.1,1.1);
+   
+}
+
+
+.nav-item{
+  
+    font-size: 20px;
+    transition: all;
+}
+
+li{
+    text-align: right;
+ 
+    
+}
+body nav ul li div a{
+    text-align: right;
+    transition:  all;
+
+}
+
+body nav ul li div a:hover{
+    background-color: mediumturquoise;
+}
+
+.dropdown-menu{
+position: absolute;
+
+}
+

@@ -1,0 +1,42 @@
+
+.dropdown-menu{
+    direction: rtl;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(30, 30, 73);
+ 
+}
+
+p{
+    text-align: right;
+}
+
+.img-responsive {
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+   width: 60%;
+   height: auto;
+    border-radius: 10px;
+    transition: 0.5s all;
+  }
+  /* .img-responsive:hover{
+      transform: scale(1.1,1.1); 
+  } */
+
+
+  .btn-group{
+      float: right;
+     
+  }
+   a {
+      text-align: right;
+    transition: all;
+  }
+
+ a:hover{
+   background-color: mediumturquoise;
+  }

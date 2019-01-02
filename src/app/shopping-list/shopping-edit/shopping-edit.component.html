@@ -1,0 +1,29 @@
+<div class="row">
+  <div  class="col-sm-12">
+    
+      <div class="row">
+          <div class="col-sm-5 form-group">
+            <label for="name">Name</label>
+            <input [(ngModel)]="NameInput" type="text"  class="form-control" placeholder="Enter name of product..">
+          </div>
+          <div class="col-sm-3 form group" >
+            <label for="amount">Amount</label>
+            <input [(ngModel)]="AmountInput" type="number"  class="form-control" placeholder="Enter amount..">
+          </div>
+      </div>
+      <br/>
+      <div  class="row">
+        <div  class="col-sm-12">
+                               
+          <button [disabled]="!NameInput || !AmountInput"  (click)="AddIngredient()"  class="btn btn-success " type="submit">Add</button>
+          <button class="btn btn-danger " type="button">Delete</button>
+          <button class="btn btn-dark " type="button">Clear</button>
+        </div>
+     
+      
+      </div>
+
+
+    
+  </div>
+</div>

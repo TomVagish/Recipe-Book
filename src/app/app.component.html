@@ -1,0 +1,22 @@
+<app-header (featureSelecter)="OnfeatureSelect($event)"></app-header>
+
+<div  class="row">
+    <div class="col-md-12">
+      <app-maincoverpic></app-maincoverpic>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <br/>
+        <app-recipes *ngIf="navigate"></app-recipes>
+        <app-shopping-list *ngIf="!navigate" ></app-shopping-list>
+  
+      </div>
+       
+    </div>
+    <hr>
+    
+  </div>
+  

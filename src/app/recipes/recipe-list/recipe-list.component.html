@@ -1,0 +1,25 @@
+
+
+  
+    <div class="row">
+      <div  class="col-md-12">
+        <button  class="btn btn-success">מתכון חדש</button>
+      </div>
+     
+    </div>
+    <br/>
+    <br/>
+ 
+    <div class="row">
+      <div  class="col-md-11">
+    
+          <app-recipe-item
+           *ngFor="let recipeEl of recipes;let i = index"
+            [recipe]="recipeEl"
+           
+             ></app-recipe-item>
+    
+      </div>
+    </div>
+
+
