@@ -23,8 +23,7 @@ export class AppComponent implements OnInit{
    
   }
 
-  
-  OnfeatureSelect(nav:string)
+  OnFeatureSelect(nav:string)
   {
     if(nav=='Recipe'){
       this.navigate= true;
