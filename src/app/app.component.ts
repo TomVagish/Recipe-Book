@@ -1,38 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"]
 })
-export class AppComponent implements OnInit{
-  title = 'TheProject';
+export class AppComponent implements OnInit {
+  title = "TheProject";
 
+  navigate = true;
 
-  navigate:boolean = true;
+  constructor() {}
 
-  constructor()
-  {
-   
-  }
+  ngOnInit() {}
 
-  ngOnInit(){
-
-  
-   
-  }
-
-  OnFeatureSelect(nav:string)
-  {
-    if(nav=='Recipe'){
-      this.navigate= true;
-    }else{
-      this.navigate=false;
+  OnFeatureSelect(nav: string) {
+    if (nav === "Recipe") {
+      this.navigate = true;
+    } else {
+      this.navigate = false;
     }
-
   }
-
-
- 
 }
